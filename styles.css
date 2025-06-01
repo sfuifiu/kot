@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #184c3b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.nav-bar {
+  background-color: #007766;
+  color: white;
+  padding: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-section {
+  padding: 20px;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-top: 20px;
+  background-color: #007766;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.content {
+  text-align: center;
+  padding: 30px;
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.result-box {
+  border: 2px solid #4CAF50;
+  padding: 30px;
+  margin: 20px auto;
+  width: 400px;
+  min-height: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
