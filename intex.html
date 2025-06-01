@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aquaculture Parameters</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- Left-side Menu Button -->
+  <div class="menu-container">
+    <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
+    <div id="menu-dropdown" class="menu-dropdown">
+      <a href="#">Home</a>
+      <a href="#" onclick="toggleAbout()">About</a>
+      <a href="https://thingspeak.com/channels/2903850/feeds.csv?api_key=E1HRIMYWBE6I6VTE&results=1400" target="_blank">Report</a>
+    </div>
+  </div>
+
+  <!-- Top-left Logo -->
+  <img src="ramaiah logo.png" class="corner-image no-round" alt="Corner Logo" />
+
+  <!-- Top-right VGST Logo and Text -->
+  <div class="top-right">
+    <img src="govo.png" alt="VGST Logo" />
+    <span>Dept. of Science and Technology</span>
+    <span>Govt. of Karnataka</span>
+  </div>
+
+  <h1>Aquaculture Water Parameters</h1>
+  <h2>Electronics and Communication Engineering</h2>
+
+  <div class="parameters">
+    <div class="card">
+      <h2>Turbidity Levels (NTU)</h2>
+      <div id="turbidity" class="value">Loading...</div>
+    </div>
+    <div class="card">
+      <h2>Temperature Trends (°C)</h2>
+      <div id="temperature" class="value">Loading...</div>
+    </div>
+    <div class="card">
+      <h2>TDS Levels in Water (ppm)</h2>
+      <div id="tds" class="value">Loading...</div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about-section">
+    <h2>About the Project</h2>
+    <p>This project is a water quality monitoring system designed for aquaculture applications. It continuously tracks key parameters such as:</p>
+    <ul>
+      <li>Turbidity – to detect water clarity</li>
+      <li>Temperature – to maintain optimal fish health</li>
+      <li>TDS (Total Dissolved Solids) – to measure water purity</li>
+    </ul>
+    <p>The system uses sensors connected to a Raspberry Pi and sends data to ThingSpeak, where it can be viewed and exported. This real-time monitoring helps improve fish yield, reduce risk, and support sustainable aquaculture.</p>
+    <p><strong>Developed by:</strong><br>Students of the Electronics and Communication Engineering Department,<br>under the guidance of CG Ragavedra.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
